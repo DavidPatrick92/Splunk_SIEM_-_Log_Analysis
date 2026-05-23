@@ -94,14 +94,14 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4740
 
 An operational Windows Security Overview Dashboard was created to visually correlate incoming log volumes. This abstracts complex queries into an executive-level summary chart for security teams.   
 
-Failed Logins (Last 24h): Configured as a dynamic Bar Chart to isolate account spray velocity.
+## Failed Logins (Last 24h): Configured as a dynamic Bar Chart to isolate account spray velocity.
 <img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Failed%20Login%20Panel.png">
 
 
-Login Activity Over Time: Rendered via a structured Line Chart to define normal operational baselines vs anomalies.
+## Login Activity Over Time: Rendered via a structured Line Chart to define normal operational baselines vs anomalies.
 <img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Login%20Activity%20OT%20Panel.png">
 
-Account Lockouts (Last 7d):
+## Account Lockouts (Last 7d):
 <img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Account%20Lockout%20Panel.png">
 
 
