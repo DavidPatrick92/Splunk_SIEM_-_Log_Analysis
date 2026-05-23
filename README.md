@@ -1,13 +1,13 @@
-##📌Project Overview
+# 📌Project Overview
 
 This project demonstrates the implementation of a centralized log management and security monitoring architecture using Splunk Enterprise. The environment bridges an Azure-deployed Windows Server acting as an Active Directory Domain Controller and an Ubuntu Linux VM running a standalone Splunk Indexer instance.   
 
 By installing and deploying the Splunk Universal Forwarder on the Windows target, critical event logs (Authentication failures, successful logons, and account lockouts) are securely piped, parsed, and translated into operational security intelligence.   
 
-Architecture Overview
+## Architecture Overview
 <img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Architecture%20Diagram.png">
 
-🛠️ Infrastructure & Technologies Used
+## 🛠️ Infrastructure & Technologies Used
 SIEM Platform: Splunk Enterprise (v10.2.2)    
 
 Log Ingestion Agent: Splunk Universal Forwarder    
@@ -18,7 +18,7 @@ Query Language: Splunk Processing Language (SPL)   
 
 Diagnostic Tools: PowerShell Core, Test-NetConnection, PuTTY SSH    
 
-📋 Step-by-Step Implementation
+## 📋 Step-by-Step Implementation
 Step 1: Deploying the Architecture in Azure
 Provisioned a Linux Ubuntu Standard_B2s virtual machine to meet Splunk's baseline hardware footprint.   
 
