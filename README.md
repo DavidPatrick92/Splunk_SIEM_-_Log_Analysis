@@ -1,5 +1,5 @@
-Lab 3 — Splunk SIEM & Log Analysis
-📌 Project Overview
+##📌Project Overview
+
 This project demonstrates the implementation of a centralized log management and security monitoring architecture using Splunk Enterprise. The environment bridges an Azure-deployed Windows Server acting as an Active Directory Domain Controller and an Ubuntu Linux VM running a standalone Splunk Indexer instance.   
 
 By installing and deploying the Splunk Universal Forwarder on the Windows target, critical event logs (Authentication failures, successful logons, and account lockouts) are securely piped, parsed, and translated into operational security intelligence.   
