@@ -4,14 +4,9 @@ This project demonstrates the implementation of a centralized log management and
 
 By installing and deploying the Splunk Universal Forwarder on the Windows target, critical event logs (Authentication failures, successful logons, and account lockouts) are securely piped, parsed, and translated into operational security intelligence.   
 
-  ┌─────────────────────────────────┐               ┌────────────────────────────────┐
-  │        Windows Server           │               │         Ubuntu Linux           │
-  │   (Active Directory Domain)     │               │   (Splunk Enterprise SIEM)     │
-  │                                 │               │                                │
-  │  ┌───────────────────────────┐  │  Port 9997    │  ┌──────────────────────────┐  │
-  │  │    Universal Forwarder    ├──┼───────────────┼─►│    Splunk Indexer / UI   │  │
-  │  └───────────────────────────┘  │  (TCP Logs)   │  └──────────────────────────┘  │
-  └─────────────────────────────────┘               └────────────────────────────────┘
+Architecture Overview
+<img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Architecture%20Diagram.png">
+
 🛠️ Infrastructure & Technologies Used
 SIEM Platform: Splunk Enterprise (v10.2.2)    
 
