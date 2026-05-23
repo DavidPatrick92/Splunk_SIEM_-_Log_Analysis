@@ -90,7 +90,8 @@ index=windows_logs sourcetype=WinEventLog:Security EventCode=4740
 ```
 <img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Index%204740.png">
 
-📊 Operational Metrics & Security Dashboards
+# 📊 Operational Metrics & Security Dashboards
+
 An operational Windows Security Overview Dashboard was created to visually correlate incoming log volumes. This abstracts complex queries into an executive-level summary chart for security teams.   
 
 Failed Logins (Last 24h): Configured as a dynamic Bar Chart to isolate account spray velocity.
