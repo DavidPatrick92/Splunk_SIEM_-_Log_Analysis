@@ -32,6 +32,8 @@ Managed the instance remotely over SSH via PuTTY.  
 
 Unpacked the deployment binaries, completed initial daemon configuration, and bound the pipeline to receive on port 9997.   
 
+<img width="1000" alt="image" src="https://github.com/DavidPatrick92/Splunk_SIEM_-_Log_Analysis/blob/main/Screenshots/Screenshot%202026-05-23%20152627.png">
+
 ## Extract and establish the local Debian distribution package
 ```bash
 sudo dpkg -i splunk-10.2.2-linux-amd64.deb
