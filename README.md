@@ -45,7 +45,7 @@ sudo /opt/splunk/bin/splunk start --accept-license
 ### Step 3: Log Agent Deployment & inputs.conf Engineering
 Installed the Universal Forwarder on the primary Active Directory machine.   
 
-Engineered a custom programmatic inputs.conf file path within ```bash C:\Program Files\SplunkUniversalForwarder\etc\system\local\``` to pull granular Event IDs (4624, 4625, 4740) out of the OS subsystem.  
+Engineered a custom programmatic inputs.conf file path within ```C:\Program Files\SplunkUniversalForwarder\etc\system\local\``` to pull granular Event IDs (4624, 4625, 4740) out of the OS subsystem.  
 
 | Configuration Key | Value |
 | :--- | :--- |
@@ -155,15 +155,13 @@ The Error: Although Layer 3 ICMP ping traffic routed successfully across endpoin
 
 The Fix: Provisioned a highly restrictive firewall exception rule within the Azure platform interface:   
 
-Source: VirtualNetwork
-
-Protocol: TCP
-
-Port Range: 9997
-
-Action: Allow
-
-Priority: 100
+| Property | Setting |
+| :--- | :--- |
+| **Source:** | VirtualNetwork |
+| **Protocol:** | TCP |
+| **Port Range:** | 9997 |
+| **Action:** | Allow |
+| **Priority:** | 100 |
 
 ## Final Verification Results
 
